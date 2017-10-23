@@ -1,23 +1,29 @@
----
-layout: default
----
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Acquisitions Tool</title>
+        <link href="http://cdn.fancygrid.com/fancy.min.css" rel="stylesheet">
+        <link href="css/default.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="http://cdn.fancygrid.com/fancy-angular.js"></script>
+        <script src="http://cdn.fancygrid.com/fancy.full.min.js"></script>
+        <script src="http://cdn.fancygrid.com/fancy.min.js"></script>
+        <script>Fancy.MODULESDIR = "http://cdn.fancygrid.com/modules/";</script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body ng-app="myApp">
+        <!-- Fancy Grid Controller -->
+        <div ng-controller="MainController" class="wrapper">
+            <div class="aqGrid">
+                <fancygrid id="myGrid" fg-config="config"></fancygrid>
+            </div>
+        </div>
+        <!-- /Fancy Grid Controller -->
+    </body>
+</html>
 
-<div class="home">
 
-  <h1 class="page-heading">Posffffffffts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
