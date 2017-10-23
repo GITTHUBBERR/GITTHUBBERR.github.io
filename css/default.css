@@ -1,0 +1,69 @@
+﻿div.fancy-grid-body a {
+    display: none !important;
+}
+.wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 3%;
+}
+.action-column-remove {
+    cursor: pointer;
+    padding: 5px !important;
+    position: relative;
+    top: -5px;
+    border-radius: 2px;
+    background-color: #E4827D;
+    color: #FFF;
+}
+.action-column-remove {
+    background-color: #F9DDE0;
+}
+.fancy-panel .fancy-panel-header-text {
+    background-color: #5d9cec;
+    text-transform: uppercase !important;
+    line-height: 30px;
+    text-align: center;
+    height: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "graphik-xcond-normal-600",arial,helvetica,sans-serif;
+}
+
+.fancy-panel-header {
+    height: 60px !important;
+}
+.fancy-theme-bootstrap .fancy-panel-tbar {
+    background-color: #f7f7f7 !important;
+}
+.fancy-panel-tbar {
+    padding: 10px 0;
+    height: 58px !important;
+    background-color: #f7f7f7 !important;
+}
+.fancy-theme-bootstrap .fancy-grid-header-cell {
+    color: #555;
+}
+.action-column-remove {
+    cursor: pointer;
+    padding: 5px !important;
+    position: relative;
+    top: -5px;
+    border-radius: 2px;
+    background-color: #ed5565;
+    color: #FFF;
+}
+.fancy-field-checkbox-input {
+    background: url(https://cdn.fancygrid.com/images/default/check.png) 0 0 no-repeat;
+}
+.fancy-panel-grid-inside {
+    height: 507px !important;
+}
+.fancy-grid-cell-inner {
+    text-align: left;
+}
